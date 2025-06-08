@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "157660141900",
+    "project_id": "metafinanceiraapp",
+    "storage_bucket": "metafinanceiraapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157660141900:android:9d4552e7229c432c2cd7e9",
+        "android_client_info": {
+          "package_name": "com.example.metafinanceiraapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD7DnyWyRe37b7HnM7U_jqSj44RYxKKNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
