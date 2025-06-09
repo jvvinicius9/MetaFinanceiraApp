@@ -23,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="?attr/colorPrimary"
-                app:title="Minhas Metas"
+                app:title="@string/minhas_metas"
                 app:titleTextColor="@android:color/white" />
         </com.google.android.material.appbar.AppBarLayout>
 
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="12dp"
-            android:text="Ver somente ativas"
+            android:text="@string/ver_somente_ativas"
             android:textColor="@color/white"
             app:backgroundTint="@android:color/holo_purple"
             app:cornerRadius="12dp" />
@@ -59,7 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:contentDescription="Nova Meta"
+        android:contentDescription="@string/nova_meta"
         android:src="@android:drawable/ic_input_add"
         app:layout_anchor="@id/recyclerViewMetas"
         app:layout_anchorGravity="bottom|end"

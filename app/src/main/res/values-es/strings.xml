@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Títulos -->
+    <string name="app_name">Meta Financiera</string>
+    <string name="minhas_metas">Mis Metas</string>
+    <string name="detalhes_meta">Detalles de la Meta</string>
+    <string name="historico_depositos">Historial de Depósitos</string>
+    <string name="nova_meta">Nueva Meta</string>
+    <string name="novo_deposito">Nuevo Depósito</string>
+
+    <!-- Etiquetas y textos -->
+    <string name="nome_meta">Nombre de la Meta</string>
+    <string name="descricao_padrao">La descripción de la meta aparece aquí.</string>
+    <string name="descricao_hint">Descripción (opcional)</string>
+    <string name="valor_meta_hint">Valor de la meta (R$)</string>
+    <string name="selecionar_data">Seleccionar fecha</string>
+    <string name="data_final_label">Días restantes:</string>
+    <string name="dias_restantes_label">Valor sugerido por día:</string>
+    <string name="valor_sugerido_dia">Valor sugerido por día:</string>
+    <string name="meta_total_label">Meta:</string>
+    <string name="acumulado_label">Acumulado:</string>
+    <string name="falta_label">Falta:</string>
+    <string name="progresso_label">Progreso:</string>
+
+    <!-- Botones -->
+    <string name="meta_concluida_em">🎉 Meta Completada el %1$s</string>
+    <string name="btn_ver_historico">Error al guardar el depósito</string>
+    <string name="btn_adicionar_deposito">Agregar Depósito</string>
+    <string name="btn_editar_meta">Editar Meta</string>
+    <string name="btn_excluir_meta">Eliminar Meta</string>
+    <string name="btn_salvar_deposito">Guardar Depósito</string>
+    <string name="ver_somente_ativas">Ver solo activas</string>
+
+    <!-- Campos de entrada -->
+    <string name="hint_nome_meta">Nombre de la meta</string>
+    <string name="hint_valor_deposito">Valor del depósito</string>
+
+    <!-- Elementos del historial -->
+    <string name="data_formatada">Fecha: %1$s</string>
+    <string name="resumo_meta_formatado">%1$s de %2$s</string>
+    <string name="btn_salvar_meta">Guardar Meta</string>
+    <string name="valor_formatado">Valor: %1$s</string>
+</resources>

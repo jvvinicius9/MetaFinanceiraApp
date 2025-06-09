@@ -21,7 +21,7 @@
             android:id="@+id/txtNomeMeta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nome da Meta"
+            android:text="@string/nome_meta"
             android:textAppearance="?attr/textAppearanceHeadline6"
             android:textColor="?android:textColorPrimary" />
 
@@ -29,7 +29,7 @@
             android:id="@+id/txtResumoMeta"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="R$0,00 de R$0,00"
+            android:text="@string/resumo_meta_formatado"
             android:textSize="14sp"
             android:textColor="?android:textColorSecondary"
             android:layout_marginTop="4dp" />

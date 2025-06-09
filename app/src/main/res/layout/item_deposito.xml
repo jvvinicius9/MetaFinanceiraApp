@@ -21,7 +21,7 @@
             android:id="@+id/txtValorItem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Valor: R$ 0,00"
+            android:text="@string/valor_formatado"
             android:textStyle="bold"
             android:textSize="17sp"
             android:textColor="?attr/colorPrimary" />
@@ -30,7 +30,7 @@
             android:id="@+id/txtDataItem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Data: 00/00/0000"
+            android:text="@string/data_formatada"
             android:textSize="14sp"
             android:textColor="?android:textColorSecondary"
             android:layout_marginTop="4dp" />

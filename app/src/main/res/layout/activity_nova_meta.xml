@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:title="Nova Meta"
+        app:title="@string/nova_meta"
         app:titleTextColor="@android:color/white"
         app:navigationIcon="@drawable/ic_baseline_arrow_back_24" />
 
@@ -32,7 +32,7 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nome da meta"
+                android:hint="@string/hint_nome_meta"
                 android:layout_marginBottom="16dp">
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/edtNomeMeta"
@@ -45,7 +45,7 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Descrição (opcional)"
+                android:hint="@string/descricao_hint"
                 android:layout_marginBottom="16dp">
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/edtDescricaoMeta"
@@ -58,7 +58,7 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Valor da meta (R$)"
+                android:hint="@string/valor_meta_hint"
                 android:layout_marginBottom="16dp">
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/edtValorMeta"
@@ -71,7 +71,7 @@
                 android:id="@+id/txtDataFinalLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Data final"
+                android:text="@string/data_final_label"
                 android:textSize="16sp"
                 android:layout_marginBottom="4dp"
                 android:textStyle="bold"/>
@@ -80,7 +80,7 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Selecione a data"
+                android:hint="@string/selecionar_data"
                 android:layout_marginBottom="24dp">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -95,7 +95,7 @@
                 android:id="@+id/btnSalvarMeta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Salvar Meta"
+                android:text="@string/btn_salvar_meta"
                 android:backgroundTint="?attr/colorPrimary"
                 android:textColor="@android:color/white"
                 app:cornerRadius="16dp"

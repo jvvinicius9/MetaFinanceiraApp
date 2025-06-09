@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
-        app:title="Novo Depósito"
+        app:title="@string/novo_deposito"
         app:titleTextColor="@android:color/white"
         app:navigationIcon="@drawable/ic_baseline_arrow_back_24"/>
 
@@ -27,7 +27,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Valor do depósito">
+            android:hint="@string/hint_valor_deposito">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/edtValorDeposito"
                 android:layout_width="match_parent"
@@ -39,7 +39,7 @@
             android:id="@+id/btnSalvarDeposito"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Salvar Depósito"
+            android:text="@string/btn_salvar_deposito"
             android:backgroundTint="@android:color/holo_purple"
             android:textColor="@android:color/white"
             app:cornerRadius="16dp"
